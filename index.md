@@ -13,8 +13,10 @@ go down to the casinos and [roll][1].
 
 This is my pet cat ![totallyCat](https://ichef.bbci.co.uk/images/ic/1200x675/p06kt8hn.jpg)
 
-A `for loop` is a loop that does things for you `
-    for(int i = 0; i < length; i++) 
-    { 
-      ...
-    }
+A `for loop` is a loop that does things for you
+```
+for(int i = 0; i < length; i++) 
+{ 
+    ...
+}
+```
