@@ -1,3 +1,3 @@
-Lab 1
+Lab Report 1
 
 ![Image of me](me.jpg)
