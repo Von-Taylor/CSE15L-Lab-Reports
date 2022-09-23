@@ -25,7 +25,7 @@ for(int i = 0; i < length; i++) {
 }
 ```
 
-A `while loop` is also a loop that does stuff
+    A `while loop` is also a loop that does stuff
     int i = 0;
     while(i < length) {
        ...
