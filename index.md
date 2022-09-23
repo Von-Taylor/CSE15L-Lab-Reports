@@ -31,4 +31,4 @@ for(int i = 0; i < length; i++) {
        ...
     }
     
-[Lab Report 1](lab-report-1-week-0.html](https://github.com/Von-Taylor/cse15l-lab-reports/blob/main/lab-report-1-week-0.md)
+[Lab Report 1](https://github.com/Von-Taylor/cse15l-lab-reports/blob/main/lab-report-1-week-0.md)
