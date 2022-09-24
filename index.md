@@ -34,7 +34,7 @@ for(int i = 0; i < length; i++) {
 Lab 0 Notes:\
 Everyone should be able to screenshot their page showing the text they wrote in their index.md 
 ```
-Screenshot: ![firstIndex.md](GetImage.png)
+Screenshot: ![firstIndex.md](firstIndexPage.png)
 ```
 Conduct the following experiment: 
 Note that in addition to seeing your file at, e.g, https://jpolitz.github.io/cse-15l-lab-report/, you can also see it with index.html added to the end of the URL: https://jpolitz.github.io/cse-15l-lab-report/index.html (Try it!). Add another file to your repository with any name you choose, but end it in the extension .md. Can you use this idea to see that file? 
