@@ -31,7 +31,7 @@ for(int i = 0; i < length; i++) {
        ...
     }
 
-Lab 0 Notes:
+Lab 0 Notes:\
 Everyone should be able to screenshot their page showing the text they wrote in their index.md 
 ```
 Screenshot: ![firstIndex.md](GetImage.png)
