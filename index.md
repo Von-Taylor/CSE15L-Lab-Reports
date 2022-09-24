@@ -1,7 +1,7 @@
 # Intro (Testing Markdown)
 My name is **Von Taylor** and I sometimes also go by the nickname *Yoshi*.
 
-### Sub Intro
+## Sub Intro
 > - I am male
 > - I am 20 years old
 
