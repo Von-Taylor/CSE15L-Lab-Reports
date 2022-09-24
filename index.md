@@ -30,5 +30,20 @@ for(int i = 0; i < length; i++) {
     while(i < length) {
        ...
     }
-    
-[Lab Report 1](https://von-taylor.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
+
+Lab 0 Notes:
+Everyone should be able to screenshot their page showing the text they wrote in their index.md 
+```
+Screenshot: ![firstIndex.md](GetImage.png)
+```
+Conduct the following experiment: 
+Note that in addition to seeing your file at, e.g, https://jpolitz.github.io/cse-15l-lab-report/, you can also see it with index.html added to the end of the URL: https://jpolitz.github.io/cse-15l-lab-report/index.html (Try it!). Add another file to your repository with any name you choose, but end it in the extension .md. Can you use this idea to see that file? 
+```
+Yes I can. 
+```
+Write down what you think is happening when you commit a new file. 
+```
+What I believe is happening is that it is simply creating a more specific path that leads to another file inside the repository "cse-15l-lab-report" 
+```
+
+This is the lab report 1 for week 0: [Lab Report 1](https://von-taylor.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
