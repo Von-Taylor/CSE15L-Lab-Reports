@@ -30,5 +30,12 @@
 
 ## 5. Setting an SSH key
 ![SSH-Key](Week-1-Lab-Reports-Pics/SSH-Key.jpg)
+- Here, I showed the files in my '.ssh' file in my local computer (If you haven't generated ssh keys before, you would only have the 'config' file)
+- After this, I ran the "ssh-keygen" command to generate an RSA public and private key
+- If it's your first time, just press enter times to default create your keys private and public keys called 'id_rsa' and 'id_rsa.pub' (in my case, I already had generated those keys, so I created test keys called 'id_rsa_test' and 'id_rsa_test.pub')
+- After that, you can create a passphrase for extra security or just skip it by pressing enter twice
+- I then used the "scp" command to copy the 'id_rsa.pub' key to the '.ssh/authorized_keys' directory on your ieng6 (I copied the test key because i already have one, but you would copy your 'id_rsa.pub' to it)
+- BE SURE TO NOT COPY THE PRIVATE KEY TO IT, THAT STAYS ON YOUR OWN LOCAL COMPUTER
+- After doing this, I am now able to use "ssh" and "scp" commands without inputting my password each time
 
 ## 6. Optimizing Remote Running
