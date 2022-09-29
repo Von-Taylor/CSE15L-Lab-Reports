@@ -22,3 +22,6 @@
 
 ## 4. Moving Files with scp
 ![Using-SCP](Week-1-Lab-Reports-Pics/SCP.jpg)
+
+## 5. Setting an SSH key
+![SSH-Key](Week-1-Lab-Reports-Pics/SSH-Key.jpg)
