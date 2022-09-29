@@ -12,3 +12,4 @@
 
 ## 1. Installing VScode
 ## 2. Remotely Connecting
+![Connecting-to-ieng6](Week-1-Lab-Reports-Pics/Screen Shot 2022-09-28 at 10.20.47 PM.png)
