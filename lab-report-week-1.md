@@ -18,3 +18,4 @@
 - If it's your first time doing this, you may have to answer "yes" to authorize and enter your cs15l password
 
 ## 3. Trying Some Commands
+![Trying-Commands](Week-1-Lab-Reports-Pics/Trying-Some-Commands.jpg)
