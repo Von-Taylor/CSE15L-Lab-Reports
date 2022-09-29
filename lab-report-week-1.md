@@ -2,11 +2,11 @@
 ## Getting Started
 
 **Steps that will be Covered:**
-> 1. Installing VScode\
-> 2. Remotely Connecting\
-> 3. Trying Some Commands\
-> 4. Moving Files with scp\
-> 5. Setting an SSH Key\
+> 1. Installing VScode
+> 2. Remotely Connecting
+> 3. Trying Some Commands
+> 4. Moving Files with scp
+> 5. Setting an SSH Key
 > 6. Optimizing Remote Running
 
 
@@ -19,3 +19,5 @@
 
 ## 3. Trying Some Commands
 ![Trying-Commands](Week-1-Lab-Reports-Pics/Trying-Some-Commands.jpg)
+
+## 4. Moving Files with scp
