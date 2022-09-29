@@ -25,3 +25,5 @@
 
 ## 5. Setting an SSH key
 ![SSH-Key](Week-1-Lab-Reports-Pics/SSH-Key.jpg)
+
+## 6. Optimizing Remote Running
