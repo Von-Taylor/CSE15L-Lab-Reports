@@ -13,3 +13,8 @@
 ## 1. Installing VScode
 ## 2. Remotely Connecting
 ![Connecting-to-ieng6](Week-1-Lab-Reports-Pics/Remotely-Connecting.jpg)
+- In this step, I connected my local personal computer to the remote ieng6 server by using the Secure Shell (ssh) program
+- I did this by using the "ssh <*cs15lUsername*>@ieng6.ucsd.edu"
+- If it's your first time doing this, you may have to answer "yes" to authorize and enter your cs15l password
+
+## 3. Trying Some Commands
