@@ -18,9 +18,13 @@
 
 ## 3. Trying Some Commands
 ![Trying-Commands](Week-1-Lab-Reports-Pics/Trying-Some-Commands.jpg)
+- While on the ieng6, I used different different variations of the "ls" commands, but all of them essentially list out the files inside of a directory
+- I also used the "cd" command, where I copied the 'hello.txt' file inside the '/home/linux/ieng6/cs15lfa22/public' folder to the the home directory, which is denoted by the '~'
+- In the last line, I used the "cat" command to print the contents of the hello.txt file
 
 ## 4. Moving Files with scp
 ![Using-SCP](Week-1-Lab-Reports-Pics/SCP.jpg)
+
 
 ## 5. Setting an SSH key
 ![SSH-Key](Week-1-Lab-Reports-Pics/SSH-Key.jpg)
