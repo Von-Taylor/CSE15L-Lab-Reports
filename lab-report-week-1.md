@@ -1,5 +1,4 @@
-# Week 1 Lab Report
-## Getting Started
+# Week 1 Lab Report (Getting Started)
 
 **Steps that will be Covered:**
 > 1. Installing VScode
