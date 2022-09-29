@@ -12,4 +12,4 @@
 
 ## 1. Installing VScode
 ## 2. Remotely Connecting
-![Connecting-to-ieng6](Remotely Connecting.png)
+![Connecting-to-ieng6](Week-1-Lab-Reports-Pics/Remotely-Connecting.jpg)
