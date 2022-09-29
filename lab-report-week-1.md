@@ -10,6 +10,8 @@
 
 
 ## 1. Installing VScode
+![VSCode-Screen](Week-1-Lab-Reports-Pics/VSCode-Screen.jpg)
+
 ## 2. Remotely Connecting
 ![Connecting-to-ieng6](Week-1-Lab-Reports-Pics/Remotely-Connecting.jpg)
 - In this step, I connected my local personal computer to the remote ieng6 server by using the Secure Shell (ssh) program
