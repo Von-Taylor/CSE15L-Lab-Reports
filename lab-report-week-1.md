@@ -8,3 +8,7 @@
 > 4. Moving Files with scp\
 > 5. Setting an SSH Key\
 > 6. Optimizing Remote Running
+
+
+## 1. Installing VScode
+## 2. Remotely Connecting
