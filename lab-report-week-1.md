@@ -39,3 +39,7 @@
 - After doing this, I am now able to use "ssh" and "scp" commands without inputting my password each time
 
 ## 6. Optimizing Remote Running
+![Optimizing-Running](Week-1-Lab-Reports-Pics/Optimizing-Remote-Running.jpg)
+- In this picture, I started off by copying a file from my local computer called "copy.txt" onto the ieng6 home directory
+- Then in a single line, I accessed the ieng6, listed the contents in the home directory, and printed out the contents in the "copy.txt" file that I copied over from my local computer
+- Whenever you do --> ssh <*cs15lUsername*>@ieng6.ucsd.edu "<*command1; command2; command3;...*>" --> it accessed the ieng6 terminal, runs your commands on it, then immediately exits out of it for you, all in 1 line
