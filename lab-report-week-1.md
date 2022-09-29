@@ -24,7 +24,9 @@
 
 ## 4. Moving Files with scp
 ![Using-SCP](Week-1-Lab-Reports-Pics/SCP.jpg)
-
+- I started off in the ieng6 to show that I had a 'hello.txt' file in its home directory
+- I then exited it and used the "scp" to do a secure copy of the 'hello.txt' file from the ieng6 to my home directory on my local personal computer
+- I then used the "ls" command to list out the files on my local personal computer (the copied hello.txt file is shown on the very right side of the terminal) 
 
 ## 5. Setting an SSH key
 ![SSH-Key](Week-1-Lab-Reports-Pics/SSH-Key.jpg)
