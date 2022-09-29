@@ -11,6 +11,10 @@
 
 ## 1. Installing VScode
 ![VSCode-Screen](Week-1-Lab-Reports-Pics/VSCode-Screen.jpg)
+- To install [Visual Studio Code][1], you have to go to their site by clicking [here][1]
+- From there, you just follow the instructions to install it depending on your operating system (Mac, Windows, Linux, etc.)
+- Once you install and open it up, it should look something like the one in the picture (I have the dark theme on so the color might be different)
+[1]: https://code.visualstudio.com/ "VSCode Install Site"
 
 ## 2. Remotely Connecting
 ![Connecting-to-ieng6](Week-1-Lab-Reports-Pics/Remotely-Connecting.jpg)
