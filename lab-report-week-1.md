@@ -21,3 +21,4 @@
 ![Trying-Commands](Week-1-Lab-Reports-Pics/Trying-Some-Commands.jpg)
 
 ## 4. Moving Files with scp
+![Using-SCP](Week-1-Lab-Reports-Pics/SCP.jpg)
