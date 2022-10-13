@@ -146,7 +146,7 @@ class SearchEngine {
   }
 ```
 - Failure-inducing input: array - {"banana", "benerner", "manana", "zenana", "flonp"}
-- Symptom: ![list-symptom]()
+- Symptom: ![list-symptom](Week-3-Lab-Report-Pics/list-symptom.jpg)
 - Bug:
 ```
     while(index2 < list2.size()) {
