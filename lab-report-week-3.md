@@ -79,13 +79,13 @@ class SearchEngine {
 ```
 
 ## Screenshots of using Add and Search:
-### Add:
-![add1]()
-![add2]()
-![add3]()
+### Adds:
+![add1](Week-3-Lab-Report-Pics/add1.jpg)
+![add2](Week-3-Lab-Report-Pics/add2.jpg)
+![add3](Week-3-Lab-Report-Pics/add3.jpg)
 
 ### Search:
-![search]()
+![search](Week-3-Lab-Report-Pics/search.jpg)
 
 ### Home Page:
-![home]()
+![home](Week-3-Lab-Report-Pics/home.jpg)
