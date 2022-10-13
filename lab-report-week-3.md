@@ -1,5 +1,6 @@
 # Lab Report Week 3
 
+## Part 1
 ## Code for Search Engine from week 2:
 ```
 class Handler implements URLHandler {
@@ -113,3 +114,44 @@ class SearchEngine {
 - The relevant arguments to the "handleRequest" method is the URL that is used, so in this case, it's "http://ieng6-202.ucsd.edu:5019". 
   The field in the "Handler" class that is used is the "listItems" field. "listItems" is a string used to print the items from "list".
 - If any of these values are changed through a request, then they update for all subsequent requests because of the infinite for loop that constantly seeks out requests.
+
+
+## Part 2
+## ListExamples.java bug:
+```
+  // Takes two sorted list of strings (so "a" appears before "b" and so on),
+  // and return a new list that has all the strings in both list in sorted order.
+  static List<String> merge(List<String> list1, List<String> list2) {
+    List<String> result = new ArrayList<>();
+    int index1 = 0, index2 = 0;
+    while(index1 < list1.size() && index2 < list2.size()) {
+      if(list1.get(index1).compareTo(list2.get(index2)) < 0) {
+        result.add(list1.get(index1));
+        index1 += 1;
+      }
+      else {
+        result.add(list2.get(index2));
+        index2 += 1;
+      }
+    }
+    while(index1 < list1.size()) {
+      result.add(list1.get(index1));
+      index1 += 1;
+    }
+    while(index2 < list2.size()) {
+      result.add(list2.get(index2));
+      index1 += 1; // <-------------------------------- bug here
+    }
+    return result;
+  }
+```
+- Failure-inducing input: array - {"banana", "benerner", "manana", "zenana", "flonp"}
+- Symptom: ![list-symptom]()
+- Bug:
+```
+    while(index2 < list2.size()) {
+      result.add(list2.get(index2));
+      index1 += 1; // <-------------------------------- bug here
+    }
+ ```
+ - Bug to symptom relation: the bug causes the symptom because it iterates "index1" instead of "index2", which causes the while the infinitely loop since its condition will forever be met
