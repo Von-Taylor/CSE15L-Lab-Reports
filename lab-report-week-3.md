@@ -155,7 +155,7 @@ while(index2 < list2.size()) {
     index1 += 1; // <-------------------------------- bug here
 }
 ```
- - Bug to symptom relation: the bug causes the symptom because it iterates "index1" instead of "index2", which causes the while the infinitely loop since its condition will forever be met. After it finishes iterating through the first array, the 1st while loop is exited, the 2nd while loop is skipped, and then it enters the 3rd while loop, except its condition variable, "index2", never gets incremented, so it never exits it.
+ - Bug to symptom relation: the bug causes the symptom because it iterates "index1" instead of "index2", which causes the while loop to infinitely loop since its condition will forever be met. After it finishes iterating through the first array, the 1st while loop is exited, the 2nd while loop is skipped, and then it enters the 3rd while loop, except its condition variable, "index2", never gets incremented, so it never exits it.
 
 ## LinkedListExamples.java bug:
 ```
@@ -192,4 +192,4 @@ while(n.next != null) {
     n.next = new Node(value, null); // <--------------------------- bug here
 }
 ```
-- Bug to symptom relation: the bug causes the symptom because it iterates "index1" instead of "index2", which causes the while the infinitely loop since its condition will forever be met. After it finishes iterating through the first array, the 1st while loop is exited, the 2nd while loop is skipped, and then it enters the 3rd while loop, except its condition variable, "index2", never gets incremented, so it never exits it.
+- Bug to symptom relation: the bug causes the symptom because the line that causes the problem should be outside the while loop instead of inside. The fact that it's inside the while loop is what causes the while loop infinitely loop since its condition will forever be met. When it tries to append 8 to the linked list, it enters the while loop, in which it constantly sets its next node to null, meaning that the condition of the while loop will forever be met.
