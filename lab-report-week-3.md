@@ -145,13 +145,51 @@ class SearchEngine {
     return result;
   }
 ```
-- Failure-inducing input: array - {"banana", "benerner", "manana", "zenana", "flonp"}
-- Symptom: ![list-symptom](Week-3-Lab-Report-Pics/list-symptom.jpg)
+- Failure-inducing input: List1 = {"apple","cat","eden","golf","idiom"}; List2 = {"bat","dandelion","falcon","happy","kite","mop","television"}
+- Symptom: 
+![list-symptom](Week-3-Lab-Report-Pics/list-symptom.jpg)
 - Bug:
 ```
-    while(index2 < list2.size()) {
-      result.add(list2.get(index2));
-      index1 += 1; // <-------------------------------- bug here
+while(index2 < list2.size()) {
+    result.add(list2.get(index2));
+    index1 += 1; // <-------------------------------- bug here
+}
+```
+ - Bug to symptom relation: the bug causes the symptom because it iterates "index1" instead of "index2", which causes the while the infinitely loop since its condition will forever be met. After it finishes iterating through the first array, the 1st while loop is exited, the 2nd while loop is skipped, and then it enters the 3rd while loop, except its condition variable, "index2", never gets incremented, so it never exits it.
+
+## LinkedListExamples.java bug:
+```
+/**
+* Adds the value to the _end_ of the list
+* @param value
+*/
+public void append(int value) {
+    if(this.root == null) {
+        this.root = new Node(value, null);
+        return;
     }
- ```
- - Bug to symptom relation: the bug causes the symptom because it iterates "index1" instead of "index2", which causes the while the infinitely loop since its condition will forever be met
+    // If it's just one element, add if after that one
+    Node n = this.root;
+    if(n.next == null) {
+        n.next = new Node(value, null);
+        return;
+    }
+    // Otherwise, loop until the end and add at the end with a null
+    while(n.next != null) {
+        n = n.next;
+        n.next = new Node(value, null); // <--------------------------- bug here
+    }
+}
+```
+- Failure-inducing input: Linked list with root 2 followed by 5,8,12,15
+- Symptom: 
+![list-symptom](Week-3-Lab-Report-Pics/linked-list-symptom.jpg)
+- Bug:
+```
+// Otherwise, loop until the end and add at the end with a null
+while(n.next != null) {
+    n = n.next;
+    n.next = new Node(value, null); // <--------------------------- bug here
+}
+```
+- Bug to symptom relation: the bug causes the symptom because it iterates "index1" instead of "index2", which causes the while the infinitely loop since its condition will forever be met. After it finishes iterating through the first array, the 1st while loop is exited, the 2nd while loop is skipped, and then it enters the 3rd while loop, except its condition variable, "index2", never gets incremented, so it never exits it.
