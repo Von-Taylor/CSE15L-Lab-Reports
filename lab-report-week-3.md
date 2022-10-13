@@ -85,16 +85,19 @@ class SearchEngine {
 - The relevant arguments to the "handleRequest" method is the URL that is used, so in this case, it's "http://ieng6-202.ucsd.edu:5019/add?s=apple".
   The fields in the "Handler" class that are used are the "list" and "listItems" fields. "list" is used to store the strings you add using the /add path and query.
   "listItems" is used to convert the contents in "list" to a string and print that out to the web page.
+- If any of these values are changed through a request, then they update for all subsequent requests because of the infinite for loop that constantly seeks out requests.
 ![add2](Week-3-Lab-Report-Pics/add2.jpg)
 - The "handleRequest" method is called and used.
 - The relevant arguments to the "handleRequest" method is the URL that is used, so in this case, it's "http://ieng6-202.ucsd.edu:5019/add?s=pineapple".
   The fields in the "Handler" class that are used are the "list" and "listItems" fields. "list" is used to store the strings you add using the /add path and query.
+- If any of these values are changed through a request, then they update for all subsequent requests because of the infinite for loop that constantly seeks out requests.
   "listItems" is used to convert the contents in "list" to a string and print that out to the web page.
 ![add3](Week-3-Lab-Report-Pics/add3.jpg)
 - The "handleRequest" method is called and used.
 - The relevant arguments to the "handleRequest" method is the URL that is used, so in this case, it's "http://ieng6-202.ucsd.edu:5019/add?s=banana".
   The fields in the "Handler" class that are used are the "list" and "listItems" fields. "list" is a list used to store the strings you add using the /add path and query.
   "listItems" is a string used to convert the contents in "list" to a string and print that out to the web page.
+- If any of these values are changed through a request, then they update for all subsequent requests because of the infinite for loop that constantly seeks out requests.
 
 ### Search:
 ![search](Week-3-Lab-Report-Pics/search.jpg)
@@ -102,9 +105,11 @@ class SearchEngine {
 - The relevant arguments to the "handleRequest" method is the URL that is used, so in this case, it's "http://ieng6-202.ucsd.edu:5019/search?s=app".
   The fields in the "Handler" class that are used are the "foundItems" and the "found" fields. "foundItems" is a string used to print the items from "list" that
   match the search query. "found" is a boolean used to tell the program whether to print that no items were found or not.
+- If any of these values are changed through a request, then they update for all subsequent requests because of the infinite for loop that constantly seeks out requests.
 
 ### Home Page:
 ![home](Week-3-Lab-Report-Pics/home.jpg)
 - The "handleRequest" method is called and used.
 - The relevant arguments to the "handleRequest" method is the URL that is used, so in this case, it's "http://ieng6-202.ucsd.edu:5019". 
   The field in the "Handler" class that is used is the "listItems" field. "listItems" is a string used to print the items from "list".
+- If any of these values are changed through a request, then they update for all subsequent requests because of the infinite for loop that constantly seeks out requests.
