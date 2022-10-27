@@ -145,7 +145,22 @@ class SearchEngine {
     return result;
   }
 ```
-- Failure-inducing input: `List1 = {"apple","cat","eden","golf","idiom"}; List2 = {"bat","dandelion","falcon","happy","kite","mop","television"}`
+- Failure-inducing input: 2 merged array lists
+```
+List<String> input1Array1 = new ArrayList<>();
+String[] tempInput1Array1 = {"apple","cat","eden","golf","idiom"};
+for(String s: tempInput1Array1) { input1Array1.add(s); }
+
+List<String> input1Array2 = new ArrayList<>();
+String[] tempInput1Array2 = {"bat","dandelion","falcon","happy","kite","mop","television"};
+for(String s: tempInput1Array2) { input1Array2.add(s); }
+
+List<String> expect1 = new ArrayList<>();
+String[] tempExpect1 = {"apple","bat","cat","dandelion","eden","falcon","golf","happy","idiom","kite","mop","television"};
+for(String s: tempExpect1) { expect1.add(s); }
+
+assertEquals(expect1, ListExamples.merge(input1Array1, input1Array2));
+```
 - Symptom: 
 ![list-symptom](Week-3-Lab-Report-Pics/list-symptom.jpg)
 - Bug:
@@ -182,6 +197,17 @@ public void append(int value) {
 }
 ```
 - Failure-inducing input: Linked list with root 2 followed by 5,8,12,15
+```
+LinkedList root1 = new LinkedList();
+
+root1.append(2);
+root1.append(5);
+root1.append(8);
+root1.append(12);
+root1.append(15);
+
+assertEquals("2 5 8 12 15 ", root1.toString());
+```
 - Symptom: 
 ![list-symptom](Week-3-Lab-Report-Pics/linked-list-symptom.jpg)
 - Bug:
