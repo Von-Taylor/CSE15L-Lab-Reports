@@ -145,7 +145,7 @@ class SearchEngine {
     return result;
   }
 ```
-- Failure-inducing input: List1 = {"apple","cat","eden","golf","idiom"}; List2 = {"bat","dandelion","falcon","happy","kite","mop","television"}
+- Failure-inducing input: `List1 = {"apple","cat","eden","golf","idiom"}; List2 = {"bat","dandelion","falcon","happy","kite","mop","television"}`
 - Symptom: 
 ![list-symptom](Week-3-Lab-Report-Pics/list-symptom.jpg)
 - Bug:
