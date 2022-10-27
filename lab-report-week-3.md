@@ -162,7 +162,7 @@ for(String s: tempExpect1) { expect1.add(s); }
 assertEquals(expect1, ListExamples.merge(input1Array1, input1Array2));
 ```
 - Symptom: 
-![list-symptom](Week-3-Lab-Report-Pics/list-symptom.jpg)
+![merge-symptom](Week-3-Lab-Report-Pics/merge-symptom.jpg)
 - Bug:
 ```
 while(index2 < list2.size()) {
