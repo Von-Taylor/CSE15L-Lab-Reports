@@ -12,16 +12,18 @@
     
     > Output:
     > ![lessN](Week-5-Lab-Report-Pics/lessN.jpg)
-    > - What this does is display the line numbers in the file that you open with the 'less' command. This is useful\
+    > - What this command does is **display the line numbers** in the file that you open with the 'less' command. This is useful\
     > for quality-of-life purposes where you might want to know where you inside of a file that you are reading.
 
 2. -p command
     > `less -p<string> rr74.txt`
     > - \<string> is any string the user wants to input
-    > - (For the output, I choose my \<string> to be "med"
+    > - (For the output, I choose my \<string> to be "med")
     
     > Output:
     > ![lessp](Week-5-Lab-Report-Pics/lessp.jpg)
+    > - What this command does is tells 'less' to **start at the first instance of "med"** in the file. This is also useful for\
+    > quality of life purposes where you may want to start reading the file from a string that of your choosing.
     
 3.
 
