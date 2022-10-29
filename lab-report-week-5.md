@@ -113,3 +113,4 @@ on the terminal.
     > command basically does similar functionality of outputting the output of the 'find' command into a txt file and then\
     > inputting that txt file into the 'grep' command.
     > into the grep command 
+# (END Lab Report Week 5)
