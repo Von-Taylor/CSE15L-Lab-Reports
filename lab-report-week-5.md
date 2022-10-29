@@ -1,6 +1,7 @@
 # Lab Report Week 5
 ## Linux Commands to Inspect:
-- less \<regularFile>: similar to 'cat' command, except allows you to have all the contents of the file on 1 screen instead of just on the terminal.
+- less \<regularFile>: similar to 'cat' command, except allows you to have all the contents of the file on 1 separate screen instead of just\
+on the terminal.
 - find \<fileName>: recursively lists all the relative paths of the files in a directory and its subdirectories onto the terminal.
 - grep "\<string>" \<regularFile>: accepts a string argument, in which it searches a file and prints all lines in it that have the given string.
     
