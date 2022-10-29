@@ -33,7 +33,7 @@
     > Output:
     > ![lessz](Week-5-Lab-Report-Pics/less-z.jpg)
     > - What this command does it makes it so that when you press 'space' on your keyboard while in the 'less' screen of your file,\
-    > the screen will only move down 5 lines instead of 1 entire screen down.
+    > the screen will only move down 5 lines instead of the default 1 entire screen down.
 
 ### 3 Interesting Command-Line Options for "find"
 1.
