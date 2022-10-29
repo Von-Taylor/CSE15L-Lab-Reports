@@ -52,8 +52,8 @@
     
     > Output:
     > ![findtype](Week-5-Lab-Report-Pics/findtype.jpg)
-    > - What this command does is it recursively lists all relative paths to files in a file that are directories. This is useful for when you want to\
-    > only list all the subdirectories in a directory, but not all the files within them.
+    > - What this command does is it recursively lists all relative paths to files in a file that are directories. This is useful\
+    > for when you want to only list all the subdirectories in a directory, but not all the files within them.
 
 3. -iname command
     > `find technical -iname "<fileName>"`
@@ -62,17 +62,19 @@
     
     > Output:
     > ![findiname](Week-5-Lab-Report-Pics/findiname.jpg)
-    > - What this command does is it recursively lists all relative paths to files that match the "water_\*.txt" string, just like the -name command/
-    > except that it also ignores case. This is useful for when you want to list all files that are similar but have different cases.
+    > - What this command does is it recursively lists all relative paths to files that match the "water_\*.txt" string, just like\
+    > the -name command except that it also ignores case. This is useful for when you want to list all files that are similar but\
+    > have different cases.
 
 5. -empty command
-    > `find technical -empty"`
+    > `find technical -empty`
     > The txt file that I created earlier called "WATER_FLEES.txt" is an empty file for the sake of showing how this command works
 
     > Output:
     > ![findempty](Week-5-Lab-Report-Pics/findempty.jpg)
-    > - What this command does is it recursively lists all relative paths to regular files whose contents are empty. This is useful for when you need\
-    > some sort of way to find all the empty regular files in a directory and its subdirectories so that you can, for example, get rid of them.
+    > - What this command does is it recursively lists all relative paths to regular files whose contents are empty. This is\
+    > useful for when you need some sort of way to find all the empty regular files in a directory and its subdirectories so\
+    > that you can, for example, get rid of them.
 
 ### 3 Interesting Command-Line Options for "grep"
 1.
