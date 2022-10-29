@@ -7,10 +7,11 @@
     >   (All of this is done with files inside the 'technical' directory)
 
 ### 3 Interesting Command-Line Options for "less"
-#### *(Working Directory: /Users/vontaylor/technical/biomed)*
+##### *(Working Directory: /Users/vontaylor/technical/biomed)*
 
 1. -N command
-    > `less -N rr74.txt`
+    > `less -N <regularFile>`
+    > - (For the output, I choose my \<regularFile> to be "rr74.txt")
     
     > Output:
     > ![lessN](Week-5-Lab-Report-Pics/lessN.jpg)
@@ -18,9 +19,9 @@
     > for quality-of-life purposes where you might want to know where you inside of a file that you are reading.
 
 2. -p command
-    > `less -p<string> rr74.txt`
+    > `less -p<string> <regularFile>`
     > - \<string> is any string the user wants to input
-    > - (For the output, I choose my \<string> to be "med")
+    > - (For the output, I choose my \<string> to be "med" and my \<regularFile> to be "rr74.txt")
     
     > Output:
     > ![lessp](Week-5-Lab-Report-Pics/lessp.jpg)
@@ -28,9 +29,10 @@
     > quality of life purposes where you may want to start reading the file from a string that of your choosing.
     
 3. -z command
-    > `less -z<number> rr74.txt`
+    > `less -z<number> <regularFile>`
     > - \<number> is any positive integer the user wants to input
-    > - (For the output, I choose my \<number> to be 5 and press 'space' on my keyboard once)
+    > - (For the output, I choose my \<number> to be 5, my \<regularFile> to be "rr74.txt", and press 'space' on my keyboard once\
+    > on after entering the 'less' screen)
     
     > Output:
     > ![lessz](Week-5-Lab-Report-Pics/less-z.jpg)
@@ -40,7 +42,7 @@
     > which is the default.
 
 ### 3 Interesting Command-Line Options for "find"
-#### *(Working Directory: /Users/vontaylor)*
+##### *(Working Directory: /Users/vontaylor)*
 
 1. -type command
     > `find technical -type <fileType>`
@@ -52,8 +54,9 @@
     > ![findtype](Week-5-Lab-Report-Pics/findtype.jpg)
     > - What this command does is it recursively lists all files in a file that are directories. This is useful for when you want to\
     > only list all the subdirectories in a directory, but not all the files within them.
-3.
-4.
+3. -iname command
+    > `find technical -iname <fileName>`
+5.
 
 ### 3 Interesting Command-Line Options for "grep"
 1.
