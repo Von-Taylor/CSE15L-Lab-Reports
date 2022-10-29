@@ -83,7 +83,7 @@ on the terminal.
 
 1. -A command
     > `grep -A <number> "<string>" <regularFile>`
-    > - (For the output, I choose my \<number> to bo 5, my "\<string>" to be "aortic", and my \<regularFile> to be "rr74.txt")
+    > - (For the output, I choose my \<number> to be 5, my "\<string>" to be "aortic", and my \<regularFile> to be "rr74.txt")
     
     > Output:
     > ![grepA](Week-5-Lab-Report-Pics/grepA.jpg)
