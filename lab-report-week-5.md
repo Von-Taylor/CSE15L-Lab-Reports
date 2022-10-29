@@ -54,7 +54,7 @@ on the terminal.
     > Output:
     > ![findtype](Week-5-Lab-Report-Pics/findtype.jpg)
     > - What this command does is it recursively lists all relative paths to files in a file that are directories. This is useful\
-    > for when you want to only list all the subdirectories in a directory, but not all the files within them.
+    > for when you want to only list all the subdirectories in a directory, but not all the regular files within them.
 
 2. -iname command
     > `find <directory> -iname "<fileName>"`
