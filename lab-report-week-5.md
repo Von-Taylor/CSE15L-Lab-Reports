@@ -2,7 +2,7 @@
 ## Linux Commands to Inspect:
 - less \<regularFile>: similar to 'cat' command, except allows you to have all the contents of the file on 1 screen instead of just on the terminal.
 - find \<fileName>: recursively lists all the relative paths of the files in a directory and its subdirectories onto the terminal.
-- grep \<string> \<regularFile>: accepts a string argument, in which it searches a file and prints all lines in it that have the given string.
+- grep "\<string>" \<regularFile>: accepts a string argument, in which it searches a file and prints all lines in it that have the given string.
     
     >   (All of this is done with files inside the 'technical' directory)
 
@@ -57,8 +57,8 @@
 
 2. -iname command
     > `find technical -iname "<fileName>"`
-    > For the sake of showing how this command works, I created an additional txt file called "WATER_FLEES.txt"
-    > (For the output, I choose my \<fileName> to be "water_\*.txt")
+    > - For the sake of showing how this command works, I created an additional txt file called "WATER_FLEES.txt"
+    > - (For the output, I choose my \<fileName> to be "water_\*.txt")
     
     > Output:
     > ![findiname](Week-5-Lab-Report-Pics/findiname.jpg)
@@ -68,7 +68,7 @@
 
 3. -empty command
     > `find technical -empty`
-    > The txt file that I created earlier called "WATER_FLEES.txt" is an empty file for the sake of showing how this command works
+    > - The txt file that I created earlier called "WATER_FLEES.txt" is an empty file for the sake of showing how this command works
 
     > Output:
     > ![findempty](Week-5-Lab-Report-Pics/findempty.jpg)
@@ -77,6 +77,18 @@
     > that you can, for example, get rid of them.
 
 ### 3 Interesting Command-Line Options for "grep"
-1. 
-2.
+##### *(Working Directory: /Users/vontaylor/technical/biomed)*
+
+1. -A command
+    > `grep -A <number> "<string>" <fileName>`
+    > - (For the output, I choose my \<number> to bo 5, my "\<string>" to be "aortic", and my \<fileName> to be "rr74.txt")
+    
+    > Output:
+    > ![grepA](Week-5-Lab-Report-Pics/grepA.jpg)
+    > - What this command does is it finds and prints all the lines in "rr74.txt" that match "aortic", in which it additionally\
+    > then prints the next subsequent 5 lines after each match. This is useful for times when you want to search for a specific\
+    > string in a file and then read the next lines or paragraphs after it.
+
+2. 
+    > 
 3.
