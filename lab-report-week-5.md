@@ -3,10 +3,12 @@
 - less: similar to 'cat' command, except allows you to have all the contents of the file on 1 screen instead of just on the terminal.
 - find: recursively lists all the relative paths of the files in a directory and its subdirectories onto the terminal.
 - grep: accepts a string argument, in which it searches a file and prints all lines in it that have the given string.
-
-    >   (All of this is done with text files inside the technical/biomed directory on a file called 'rr74.txt')
+    
+    >   (All of this is done with files inside the 'technical' directory)
 
 ### 3 Interesting Command-Line Options for "less"
+#### *(Working Directory: /Users/vontaylor/technical/biomed)*
+
 1. -N command
     > `less -N rr74.txt`
     
@@ -33,12 +35,25 @@
     > Output:
     > ![lessz](Week-5-Lab-Report-Pics/less-z.jpg)
     > - What this command does it makes it so that when you press 'space' on your keyboard while in the 'less' screen of your file,\
-    > the screen will only move down 5 lines instead of the default 1 entire screen down.
+    > the screen will only move down 5 lines instead of the default 1 entire screen down. This is also useful for quality-of-life\
+    > purposes for when you want to skip a down the screen a few lines, but don't want to skip down to the entire next screen,\
+    > which is the default.
 
 ### 3 Interesting Command-Line Options for "find"
-1.
-2.
+#### *(Working Directory: /Users/vontaylor)*
+
+1. -type command
+    > `find technical -type <fileType>`
+    > - \<fileType> is any one of the key letters that were preset by Linux
+    > - The 2 main useful \<fileType>'s for my current purposes are 'd' for directory and 'f' for regular file
+    > - (For the output, I choose my \<fileType> to be 'd')
+    
+    > Output:
+    > ![findtype](Week-5-Lab-Report-Pics/findtype.jpg)
+    > - What this command does is it recursively lists all files in a file that are directories. This is useful for when you want to\
+    > only list all the subdirectories in a directory, but not all the files within them.
 3.
+4.
 
 ### 3 Interesting Command-Line Options for "grep"
 1.
