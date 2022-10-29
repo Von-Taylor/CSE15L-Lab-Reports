@@ -28,10 +28,10 @@
 3. -z command
     > `less -z<number> rr74.txt`
     > - \<number> is any positive integer the user wants to input
-    > - (For the output, I choose my \<number> to be 5)
+    > - (For the output, I choose my \<number> to be 5 and press 'space' on my keyboard once)
     
     > Output:
-    > ![lessz](Week-5-Lab-Report-Pics/lessz.jpg)
+    > ![lessz](Week-5-Lab-Report-Pics/less-z.jpg)
     > - What this command does it makes it so that when you press 'space' on your keyboard while in the 'less' screen of your file,\
     > the screen will only move down 5 lines instead of 1 entire screen down.
 
