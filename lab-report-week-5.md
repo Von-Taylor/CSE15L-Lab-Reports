@@ -1,8 +1,8 @@
 # Lab Report Week 5
 ## Linux Commands to Inspect:
-- less: similar to 'cat' command, except allows you to have all the contents of the file on 1 screen instead of just on the terminal.
-- find: recursively lists all the relative paths of the files in a directory and its subdirectories onto the terminal.
-- grep: accepts a string argument, in which it searches a file and prints all lines in it that have the given string.
+- less \<regularFile>: similar to 'cat' command, except allows you to have all the contents of the file on 1 screen instead of just on the terminal.
+- find \<fileName>: recursively lists all the relative paths of the files in a directory and its subdirectories onto the terminal.
+- grep \<string> \<regularFile>: accepts a string argument, in which it searches a file and prints all lines in it that have the given string.
     
     >   (All of this is done with files inside the 'technical' directory)
 
@@ -55,7 +55,7 @@
     > - What this command does is it recursively lists all relative paths to files in a file that are directories. This is useful\
     > for when you want to only list all the subdirectories in a directory, but not all the files within them.
 
-3. -iname command
+2. -iname command
     > `find technical -iname "<fileName>"`
     > For the sake of showing how this command works, I created an additional txt file called "WATER_FLEES.txt"
     > (For the output, I choose my \<fileName> to be "water_\*.txt")
@@ -66,7 +66,7 @@
     > the -name command except that it also ignores case. This is useful for when you want to list all files that are similar but\
     > have different cases.
 
-5. -empty command
+3. -empty command
     > `find technical -empty`
     > The txt file that I created earlier called "WATER_FLEES.txt" is an empty file for the sake of showing how this command works
 
@@ -77,6 +77,6 @@
     > that you can, for example, get rid of them.
 
 ### 3 Interesting Command-Line Options for "grep"
-1.
+1. 
 2.
 3.
