@@ -93,7 +93,7 @@ on the terminal.
 
 2. -i command
     > `grep -i "<string>" <regularFile>`
-    > - (For the output my "\<string>" to be "immunohistochemistry", and my \<regularFile> to be "rr74.txt")
+    > - (For the output, I choose my "\<string>" to be "immunohistochemistry", and my \<regularFile> to be "rr74.txt")
 
     > Output:
     > ![grepi](Week-5-Lab-Report-Pics/grepi.jpg)
@@ -104,7 +104,7 @@ on the terminal.
 3. -r command
     > `grep -r "<string>" <directory>`
     > - For the sake of showing how this command works, I switched my working directory to */Users/vontaylor/technical*
-    > - (For the output my "\<string>" to be "aortic", and my \<directory> to be "biomed")
+    > - (For the output, I choose my "\<string>" to be "aortic", and my \<directory> to be "biomed")
 
     > Output:
     > ![grepr](Week-5-Lab-Report-Pics/grepr.jpg)
