@@ -54,8 +54,15 @@
     > ![findtype](Week-5-Lab-Report-Pics/findtype.jpg)
     > - What this command does is it recursively lists all files in a file that are directories. This is useful for when you want to\
     > only list all the subdirectories in a directory, but not all the files within them.
+
 3. -iname command
-    > `find technical -iname <fileName>`
+    > `find technical -iname "<fileName>"`
+    > For the sake of showing how this command works, I created an additional txt file called "WATER_FLEES.txt"
+    > (For the output, I choose my \<fileName> to be "water_\*.txt")
+    
+    > Output:
+    > ![findiname](Week-5-Lab-Report-Pics/findiname.jpg)
+    > - What this command does is it recursively lists all files that match the 
 5.
 
 ### 3 Interesting Command-Line Options for "grep"
