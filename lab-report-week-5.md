@@ -1,4 +1,5 @@
 # Lab Report Week 5
+- **HTML Link:** https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-5.html
 ## Linux Commands to Inspect:
 - less \<regularFile>: similar to 'cat' command, except allows you to have all the contents of the file on 1 separate screen instead of just\
 on the terminal.
@@ -112,4 +113,5 @@ on the terminal.
     > This could be useful when you want to find all the files and their respective lines that contain a certain string. This one\
     > command basically has similar functionality to outputting the output of the 'find' command into a txt file and then\
     > inputting that txt file into the 'grep' command.
+
 # (END Lab Report Week 5)
