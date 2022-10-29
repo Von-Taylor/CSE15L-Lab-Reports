@@ -17,7 +17,7 @@ on the terminal.
     > Output:
     > ![lessN](Week-5-Lab-Report-Pics/lessN.jpg)
     > - What this command does is display the line numbers in the file that you open with the 'less' command. This is useful\
-    > for quality-of-life purposes where you might want to know where you inside of a file that you are reading.
+    > for quality-of-life purposes where you might want to know where you are inside of a file that you are reading.
 
 2. -p command
     > `less -p<string> <regularFile>`
@@ -33,13 +33,13 @@ on the terminal.
     > `less -z<number> <regularFile>`
     > - \<number> is any positive integer the user wants to input
     > - (For the output, I choose my \<number> to be 5, my \<regularFile> to be "rr74.txt", and press 'space' on my keyboard once\
-    > on after entering the 'less' screen)
+    > after entering the 'less' screen)
     
     > Output:
     > ![lessz](Week-5-Lab-Report-Pics/less-z.jpg)
     > - What this command does it makes it so that when you press 'space' on your keyboard while in the 'less' screen of your file,\
     > the screen will only move down 5 lines instead of the default 1 entire screen down. This is also useful for quality-of-life\
-    > purposes for when you want to skip a down the screen a few lines, but don't want to skip down to the entire next screen,\
+    > purposes for when you want to skip a down the screen only a few lines, but don't want to skip down to the entire next screen,\
     > which is the default.
 
 ### 3 Interesting Command-Line Options for "find"
