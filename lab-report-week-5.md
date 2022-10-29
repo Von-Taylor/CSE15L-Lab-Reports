@@ -25,7 +25,15 @@
     > - What this command does is tells 'less' to **start at the first instance of "med"** in the file. This is also useful for\
     > quality of life purposes where you may want to start reading the file from a string that of your choosing.
     
-3.
+3. -z command
+    > `less -z<number> rr74.txt`
+    > - \<number> is any positive integer the user wants to input
+    > - (For the output, I choose my \<number> to be 5)
+    
+    > Output:
+    > ![lessz](Week-5-Lab-Report-Pics/lessz.jpg)
+    > - What this command does it makes it so that when you press 'space' on your keyboard while in the 'less' screen of your file,\
+    > the screen will only move down 5 lines instead of 1 entire screen down.
 
 ### 3 Interesting Command-Line Options for "find"
 1.
