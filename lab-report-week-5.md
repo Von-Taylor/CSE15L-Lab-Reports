@@ -110,7 +110,6 @@ on the terminal.
     > ![grepr](Week-5-Lab-Report-Pics/grepr.jpg)
     > - What this command does is it recursively does a 'grep' on all regular files in technical and its subdirectories (if it had).\
     > This could be useful when you want to find all the files and their respective lines that contain a certain string. This one\
-    > command basically does similar functionality of outputting the output of the 'find' command into a txt file and then\
+    > command basically has similar functionality to outputting the output of the 'find' command into a txt file and then\
     > inputting that txt file into the 'grep' command.
-    > into the grep command 
 # (END Lab Report Week 5)
