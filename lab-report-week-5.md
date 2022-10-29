@@ -7,13 +7,13 @@
     >   (all of this is done with text files inside the technical/biomed directory)
 
 ### 3 Interesting Command-Line Options for "less"
-1. -J command
-    >   `less -J rr74.txt`
+1. -N command
+    > `less -N rr74.txt`
     > 
     > Output:
-    >   ![lessJ](Week-5-Lab-Report-Pics/lessJ.jpg)
-    > - In this screen, by pressing 'm' then any character on your keyboard, it will mark the first line on the current screen that\
-    >   contains that letter.
+    >   ![lessJ](Week-5-Lab-Report-Pics/lessN.jpg)
+    > - What this does is display the line numbers in the file that you open with the 'less' command. This is useful\
+    > for quality-of-life purposes where you might want to know where you inside of a file that you are reading.
 3.
 4.
 
