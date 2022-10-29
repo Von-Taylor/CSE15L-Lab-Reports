@@ -100,4 +100,15 @@
     > This could be useful for times when you want to find the lines in a regular files that match the inputted string, but you don't\
     > care about the case of the found strings.
 
-3. -
+3. -r command
+    > `grep -r "<string>" <directory>`
+    > - For the sake of showing how this command works, I switched my working directory to */Users/vontaylor/technical*
+    > - (For the output my "\<string>" to be "aortic", and my \<directory> to be "biomed")
+
+    > Output:
+    > ![grepr](Week-5-Lab-Report-Pics/grepr.jpg)
+    > - What this command does is it recursively does a 'grep' on all regular files in technical and its subdirectories (if it had).\
+    > This could be useful when you want to find all the files and their respective lines that contain a certain string. This one\
+    > command basically does similar functionality of outputting the output of the 'find' command into a txt file and then\
+    > inputting that txt file into the 'grep' command.
+    > into the grep command 
