@@ -1,5 +1,5 @@
 # Lab Report Week 5
-- **HTML Link:** https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-5.html
+- **HTML Link:** [https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-5.html](https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-5.html)
 ## Linux Commands to Inspect:
 - less \<regularFile>: similar to 'cat' command, except allows you to have all the contents of the file on 1 separate screen instead of just\
 on the terminal.
