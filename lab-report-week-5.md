@@ -62,8 +62,10 @@
     
     > Output:
     > ![findiname](Week-5-Lab-Report-Pics/findiname.jpg)
-    > - What this command does is it recursively lists all files that match the 
-5.
+    > - What this command does is it recursively lists all files that match the "water_\*.txt" string, just like the -name command/
+    > except that it also ignores case. This is useful for when you want to list all files that are similar but have different cases.
+
+5. 
 
 ### 3 Interesting Command-Line Options for "grep"
 1.
