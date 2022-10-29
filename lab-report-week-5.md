@@ -80,8 +80,8 @@
 ##### *(Working Directory: /Users/vontaylor/technical/biomed)*
 
 1. -A command
-    > `grep -A <number> "<string>" <fileName>`
-    > - (For the output, I choose my \<number> to bo 5, my "\<string>" to be "aortic", and my \<fileName> to be "rr74.txt")
+    > `grep -A <number> "<string>" <regularFile>`
+    > - (For the output, I choose my \<number> to bo 5, my "\<string>" to be "aortic", and my \<regularFile> to be "rr74.txt")
     
     > Output:
     > ![grepA](Week-5-Lab-Report-Pics/grepA.jpg)
@@ -89,6 +89,14 @@
     > then prints the next subsequent 5 lines after each match. This is useful for times when you want to search for a specific\
     > string in a file and then read the next lines or paragraphs after it.
 
-2. 
-    > 
-3.
+2. -i command
+    > `grep -i "<string>" <regularFile>`
+    > - (For the output my "\<string>" to be "immunohistochemistry", and my \<regularFile> to be "rr74.txt")
+
+    > Output:
+    > ![grepi](Week-5-Lab-Report-Pics/grepi.jpg)
+    > - What this command does is it does the normal grep command except that it ignores the case of "immunohistochemistry".\
+    > This could be useful for times when you want to find the lines in a regular files that match the inputted string, but you don't\
+    > care about the case of the found strings.
+
+3. -
