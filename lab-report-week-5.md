@@ -7,8 +7,8 @@ on the terminal.
     
     >   (All of this is done with files inside the 'technical' directory)
 
-### 3 Interesting Command-Line Options for "less"
-##### *(Working Directory: /Users/vontaylor/technical/biomed)*
+## 3 Interesting Command-Line Options for "less"
+#### *(Working Directory: /Users/vontaylor/technical/biomed)*
 
 1. -N command
     > `less -N <regularFile>`
@@ -42,8 +42,8 @@ on the terminal.
     > purposes for when you want to skip a down the screen only a few lines, but don't want to skip down to the entire next screen,\
     > which is the default.
 
-### 3 Interesting Command-Line Options for "find"
-##### *(Working Directory: /Users/vontaylor)*
+## 3 Interesting Command-Line Options for "find"
+#### *(Working Directory: /Users/vontaylor)*
 
 1. -type command
     > `find <directory> -type <fileType>`
@@ -78,8 +78,8 @@ on the terminal.
     > useful for when you need some sort of way to find all the empty regular files in a directory and its subdirectories so\
     > that you can, for example, get rid of them.
 
-### 3 Interesting Command-Line Options for "grep"
-##### *(Working Directory: /Users/vontaylor/technical/biomed)*
+## 3 Interesting Command-Line Options for "grep"
+#### *(Working Directory: /Users/vontaylor/technical/biomed)*
 
 1. -A command
     > `grep -A <number> "<string>" <regularFile>`
