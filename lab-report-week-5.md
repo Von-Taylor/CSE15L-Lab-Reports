@@ -45,10 +45,10 @@
 ##### *(Working Directory: /Users/vontaylor)*
 
 1. -type command
-    > `find technical -type <fileType>`
+    > `find <directory> -type <fileType>`
     > - \<fileType> is any one of the key letters that were preset by Linux
     > - The 2 main useful \<fileType>'s for my current purposes are 'd' for directory and 'f' for regular file
-    > - (For the output, I choose my \<fileType> to be 'd')
+    > - (For the output, I choose my \<directory> to be "technical" and my \<fileType> to be 'd')
     
     > Output:
     > ![findtype](Week-5-Lab-Report-Pics/findtype.jpg)
@@ -56,9 +56,9 @@
     > for when you want to only list all the subdirectories in a directory, but not all the files within them.
 
 2. -iname command
-    > `find technical -iname "<fileName>"`
+    > `find <directory> -iname "<fileName>"`
     > - For the sake of showing how this command works, I created an additional txt file called "WATER_FLEES.txt"
-    > - (For the output, I choose my \<fileName> to be "water_\*.txt")
+    > - (For the output, I choose my \<directory> to be "technical" and my \<fileName> to be "water_\*.txt")
     
     > Output:
     > ![findiname](Week-5-Lab-Report-Pics/findiname.jpg)
@@ -67,8 +67,9 @@
     > have different cases.
 
 3. -empty command
-    > `find technical -empty`
+    > `find <directory> -empty`
     > - The txt file that I created earlier called "WATER_FLEES.txt" is an empty file for the sake of showing how this command works
+    >  (For the output, I choose my \<directory> to be "technical")
 
     > Output:
     > ![findempty](Week-5-Lab-Report-Pics/findempty.jpg)
