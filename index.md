@@ -1,6 +1,11 @@
 # Intro (Testing Markdown)
 My name is **Von Taylor** and I sometimes also go by the nickname *Yoshi*.
 
+## Lab Report Links
+- [Week 1](https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-1.html)
+- [Week 3](https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-3.html)
+- [Week 5](https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-5.html)
+
 ## Sub Intro
 > - I am male
 > - I am 20 years old
