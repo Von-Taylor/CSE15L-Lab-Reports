@@ -20,6 +20,10 @@ on the terminal.
     > - What this command does is display the line numbers in the file that you open with the 'less' command. This is useful\
     > for quality-of-life purposes where you might want to know where you are inside of a file that you are reading.
 
+#### *(Working Directory: /Users/vontaylor/technical/911report)*
+    > - (For the output, I choose my \<regularFile> to be "chapter-13.5.txt")
+    > 
+
 2. -p command
     > `less -p<string> <regularFile>`
     > - \<string> is any string the user wants to input
