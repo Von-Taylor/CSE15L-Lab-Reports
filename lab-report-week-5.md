@@ -13,7 +13,7 @@ on the terminal.
 
 1. -N command
     > `less -N <regularFile>`
-    > - (For the output, I choose my \<regularFile> to be "rr74.txt", "c1476.txt", and "bcr45.txt")
+    > - (For the output, I choose my 3 \<regularFile> to be "rr74.txt", "c1476.txt", and "bcr45.txt")
     
     > Output 1:
     > ![lessN](Week-5-Lab-Report-Pics/lessN.jpg)
@@ -30,7 +30,7 @@ on the terminal.
 2. -p command
     > `less -p<string> <regularFile>`
     > - \<string> is any string the user wants to input
-    > - (For the output, I choose my \<string> to be "med" and my \<regularFile> to be "rr74.txt", "c1476.txt", and "bcr45.txt")
+    > - (For the output, I choose my \<string> to be "med" and my 3 \<regularFile> to be "rr74.txt", "c1476.txt", and "bcr45.txt")
     
     > Output 1:
     > ![lessp](Week-5-Lab-Report-Pics/lessp.jpg)
@@ -47,11 +47,17 @@ on the terminal.
 3. -z command
     > `less -z<number> <regularFile>`
     > - \<number> is any positive integer the user wants to input
-    > - (For the output, I choose my \<number> to be 5, my \<regularFile> to be "rr74.txt", and press 'space' on my keyboard once\
+    > - (For the output, I choose my \<number> to be 5, my 3 \<regularFile> to be "rr74.txt", "c1476.txt", and "bcr45.txt", and press 'space' on my keyboard once\
     > after entering the 'less' screen)
     
-    > Output:
+    > Output 1:
     > ![lessz](Week-5-Lab-Report-Pics/less-z.jpg)
+    > 
+    > Output 2:
+    > ![lessz2](Week-5-Lab-Report-Pics/less-z2.jpg)
+    > 
+    > Output 3:
+    > ![lessz3](Week-5-Lab-Report-Pics/less-z3.jpg)
     > - What this command does it makes it so that when you press 'space' on your keyboard while in the 'less' screen of your file,\
     > the screen will only move down 5 lines instead of the default 1 entire screen down. This is also useful for quality-of-life\
     > purposes for when you want to skip a down the screen only a few lines, but don't want to skip down to the entire next screen,\
