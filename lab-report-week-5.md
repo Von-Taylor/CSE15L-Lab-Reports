@@ -13,10 +13,14 @@ on the terminal.
 
 1. -N command
     > `less -N <regularFile>`
-    > - (For the output, I choose my \<regularFile> to be "rr74.txt")
+    > - (For the output, I choose my \<regularFile> to be "rr74.txt", )
     
-    > Output:
+    > Output 1:
     > ![lessN](Week-5-Lab-Report-Pics/lessN.jpg)
+    >
+    > Output 2:
+    > 
+    > Output 3: 
     > - What this command does is display the line numbers in the file that you open with the 'less' command. This is useful\
     > for quality-of-life purposes where you might want to know where you are inside of a file that you are reading.
 
