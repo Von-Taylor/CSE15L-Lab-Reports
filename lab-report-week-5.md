@@ -27,17 +27,20 @@ on the terminal.
     > - What this command does is display the line numbers in the file that you open with the 'less' command. This is useful\
     > for quality-of-life purposes where you might want to know where you are inside of a file that you are reading.
 
-#### *(Working Directory: /Users/vontaylor/technical/911report)*
-    > - (For the output, I choose my \<regularFile> to be "chapter-13.5.txt")
-    > 
-
 2. -p command
     > `less -p<string> <regularFile>`
     > - \<string> is any string the user wants to input
-    > - (For the output, I choose my \<string> to be "med" and my \<regularFile> to be "rr74.txt")
+    > - (For the output, I choose my \<string> to be "med" and my \<regularFile> to be "rr74.txt", "c1476.txt", and "bcr45.txt")
     
-    > Output:
+    > Output 1:
     > ![lessp](Week-5-Lab-Report-Pics/lessp.jpg)
+    > 
+    > Output 2:
+    > ![lessp2](Week-5-Lab-Report-Pics/lessp2.jpg)
+    > 
+    > Output 3:
+    > ![lessp3](Week-5-Lab-Report-Pics/lessp3.jpg)
+    > 
     > - What this command does is tells 'less' to start at the first instance of "med" in the file. This is also useful for\
     > quality of life purposes where you may want to start reading the file from a string that of your choosing.
     
