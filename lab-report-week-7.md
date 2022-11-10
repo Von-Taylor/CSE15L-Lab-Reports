@@ -8,16 +8,16 @@ Key Strokes:
   > `/star<Enter>cebase<Esc>n.n.:wq<Enter>`
   >
   > Screenshot of `/star<Enter>`:
-  > [1](Week-7-Lab-Report-Pics/1.jpg)
+  > ![1](Week-7-Lab-Report-Pics/1.jpg)
   > 
   > Screenshot of `cebase<Esc>`:
-  > [2](Week-7-Lab-Report-Pics/2.jpg)
+  > ![2](Week-7-Lab-Report-Pics/2.jpg)
   > 
   > Screenshot of `n.`:
-  > [3](Week-7-Lab-Report-Pics/3.jpg)
+  > ![3](Week-7-Lab-Report-Pics/3.jpg)
   > 
   > Screenshot of `n.`:
-  > [4](Week-7-Lab-Report-Pics/4.jpg)
+  > ![4](Week-7-Lab-Report-Pics/4.jpg)
   > 
   > Screenshot of `:wq<Enter>`:
-  > [5](Week-7-Lab-Report-Pics/5.jpg)
+  > ![5](Week-7-Lab-Report-Pics/5.jpg)
