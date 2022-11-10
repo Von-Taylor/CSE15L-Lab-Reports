@@ -1,7 +1,7 @@
 # Lab Report Week 7
 - **HTML Link:** [https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-7.html](https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-7.html)
 
-## Chosen Task:
+## Part 1 Chosen Task:
 - In `DocSearchServer.java`, change the name of the `start` parameter of `getFiles`, and all of its uses, to instead be called `base`.
 
 Key Strokes:
