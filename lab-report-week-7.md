@@ -21,3 +21,6 @@ Key Strokes:
   > 
   > Screenshot of `:wq<Enter>`:
   > ![5](Week-7-Lab-Report-Pics/5.jpg)
+
+## Part 2 scp vs vim:
+- 
