@@ -7,25 +7,25 @@
 Key Strokes: `/star<Enter>cebase<Esc>n.n.:wq<Enter>`
   >
   > Screenshot of `/star<Enter>`:
-  > ![1](Week-7-Lab-Report-Pics/1.jpg)
+  > ![1](Week-7-Lab-Report-Pics/step1.jpg)
   > 
   > Screenshot of `cebase<Esc>`:
-  > ![2](Week-7-Lab-Report-Pics/2.jpg)
+  > ![2](Week-7-Lab-Report-Pics/step2.jpg)
   > 
   > Screenshot of `n`:
-  > ![3](Week-7-Lab-Report-Pics/3.jpg)
+  > ![3](Week-7-Lab-Report-Pics/step3.jpg)
   > a
   > Screenshot of `.`:
-  > ![4](Week-7-Lab-Report-Pics/4.jpg)
+  > ![4](Week-7-Lab-Report-Pics/step4.jpg)
   > 
   > Screenshot of `n`:
-  > ![5](Week-7-Lab-Report-Pics/5.jpg)
+  > ![5](Week-7-Lab-Report-Pics/step5.jpg)
   > 
   > Screenshot of `.`:
-  > ![6](Week-7-Lab-Report-Pics/6.jpg)
+  > ![6](Week-7-Lab-Report-Pics/step6.jpg)
   > 
   > Screenshot of `:wq<Enter>`:
-  > ![7](Week-7-Lab-Report-Pics/7.jpg)
+  > ![7](Week-7-Lab-Report-Pics/step7.jpg)
 
 ## Part 2 --\> scp vs vim:
 - scp procedure: make the edit to `TestDocSearch.java`, scp it over to the remote server, ssh into the remote server, cd into the right directory, and then run `bash test.sh`
