@@ -23,4 +23,12 @@ Key Strokes:
   > ![5](Week-7-Lab-Report-Pics/5.jpg)
 
 ## Part 2 scp vs vim:
-- 
+- scp procedure: make the edit to `TestDocSearch.java`, scp it over to the remote server, ssh into the remote server, cd into the right\
+directory, and then run `bash test.sh`
+  > Time elapsed: 1 minute 19 seconds
+
+- vim procedure: ssh into the remote server, cd into right directory, vim into `TestDocSearch.java`, make the edit, exit\
+`TestDocSearch.java`, and then run `bash test.sh`
+  > 
+
+- Verdict: 
