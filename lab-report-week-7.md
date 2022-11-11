@@ -26,10 +26,14 @@ Key Strokes:
 - scp procedure: make the edit to `TestDocSearch.java`, scp it over to the remote server, ssh into the remote server, cd into the right\
 directory, and then run `bash test.sh`
   > Time elapsed: 01 minute 19 seconds
+  > Difficulties: had to remember the name of the directory on the remote server that I wanted to scp `TestDocSearch.java` and type out\
+  the long scp and ssh commands twice
 
 - vim procedure: ssh into the remote server, cd into right directory, vim into `TestDocSearch.java`, make the edit, exit\
 `TestDocSearch.java`, and then run `bash test.sh`
   > Time elapsed: 00 minutes 38 seconds
+  > Difficulties: unlike VSCode, vim doesn't have autofill features and other quality-of-life features that VSCode has, although some of\
+  them can be taken care of by creating and putting things into a `.vimrc` file
 
 - Verdict: it is much easier and faster to ssh into the remote server and then make the edits directly into there. Although this time\
 comparison doesn't seem that extravagent, making edits directly on the server is exceedingly much better when you have to make edits\
