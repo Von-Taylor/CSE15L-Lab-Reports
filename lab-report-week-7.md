@@ -30,9 +30,9 @@ Key Strokes: `/star<Enter>cebase<Esc>n.n.:wq<Enter>`
 ## Part 2 --\> scp vs vim:
 - scp procedure: do same chosen task above and make the edit to `DocSearchServer.java`, scp it over to the remote server, ssh into the remote server, cd into the correct directory, and then run `bash test.sh`
   > Time elapsed: 01 minute 19 seconds\
-  > Difficulties: had to remember the name of the directory on the remote server that I wanted to scp `DocSearchServer.java` and type out the long scp and ssh commands twice
+  > Difficulties: had to remember the name of the directory on the remote server that I wanted to scp `DocSearchServer.java` into
 
-- vim procedure: ssh into the remote server, cd into correct directory, vim into `DocSearchServer.java`, make the edit, exit `DocSearchServer.java`, and then run `bash test.sh`
+- vim procedure: start in the remote server, cd into correct directory, vim into `DocSearchServer.java`, make the edit, exit `DocSearchServer.java`, and then run `bash test.sh`
   > Time elapsed: 00 minutes 38 seconds\
   > Difficulties: unlike VSCode, vim doesn't have autofill features and other quality-of-life features that VSCode has, although some of them can be taken care of by creating and putting things into a `.vimrc` file
 
