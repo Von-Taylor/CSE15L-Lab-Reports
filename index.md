@@ -2,10 +2,11 @@
 My name is **Von Taylor** and I sometimes also go by the nickname *Yoshi*.
 
 ## Lab Report Links
-- [Week 1](https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-1.html)
-- [Week 3](https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-3.html)
-- [Week 5](https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-5.html)
-- [Week 7](https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-7.html)
+- [Lab Report 1 Week 0](https://von-taylor.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
+- [Lab Report 2 Week 1](https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-1.html)
+- [Lab Report 3 Week 3](https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-3.html)
+- [Lab Report 4 Week 5](https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-5.html)
+- [Lab Report 5 Week 7](https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-7.html)
 
 ## Sub Intro
 > - I am male
