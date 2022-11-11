@@ -35,4 +35,5 @@ Key Strokes:
 
 ### Questions
 1. Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
-2. What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
+  > I would rather use the vim method if I had to work on a program that I was running remotely, because I have experienced how much more manageable and faster it is to use vim on the remote server through my CSE 30. Additionally, sometimes the terminal on the remote server has software that allows certain programs to be run on the remote but not on my local computer since I'm missing the software, so it's a lot more reasonable to just run in on the remote server.
+3. What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
