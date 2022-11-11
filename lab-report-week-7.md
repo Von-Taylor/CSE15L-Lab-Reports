@@ -4,8 +4,7 @@
 ## Part 1 Chosen Task:
 - In `DocSearchServer.java`, change the name of the `start` parameter of `getFiles`, and all of its uses, to instead be called `base`.
 
-Key Strokes:
-  > `/star<Enter>cebase<Esc>n.n.:wq<Enter>`
+Key Strokes: `/star<Enter>cebase<Esc>n.n.:wq<Enter>`
   >
   > Screenshot of `/star<Enter>`:
   > ![1](Week-7-Lab-Report-Pics/1.jpg)
