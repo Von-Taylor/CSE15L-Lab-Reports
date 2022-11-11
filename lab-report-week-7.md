@@ -1,8 +1,8 @@
 # Lab Report Week 7
 - **HTML Link:** [https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-7.html](https://von-taylor.github.io/cse15l-lab-reports/lab-report-week-7.html)
 
-## Part 1 Chosen Task:
-- In `DocSearchServer.java`, change the name of the `start` parameter of `getFiles`, and all of its uses, to instead be called `base`.
+## Part 1 --\> using vim:
+- **Chosen Task**: In `DocSearchServer.java`, change the name of the `start` parameter of `getFiles`, and all of its uses, to instead be called `base`.
 
 Key Strokes: `/star<Enter>cebase<Esc>n.n.:wq<Enter>`
   >
@@ -27,7 +27,7 @@ Key Strokes: `/star<Enter>cebase<Esc>n.n.:wq<Enter>`
   > Screenshot of `:wq<Enter>`:
   > ![7](Week-7-Lab-Report-Pics/7.jpg)
 
-## Part 2 scp vs vim:
+## Part 2 --\> scp vs vim:
 - scp procedure: make the edit to `TestDocSearch.java`, scp it over to the remote server, ssh into the remote server, cd into the right directory, and then run `bash test.sh`
   > Time elapsed: 01 minute 19 seconds\
   > Difficulties: had to remember the name of the directory on the remote server that I wanted to scp `TestDocSearch.java` and type out the long scp and ssh commands twice
