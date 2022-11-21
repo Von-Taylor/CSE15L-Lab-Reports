@@ -53,10 +53,10 @@ fi
 
 ## Screenshots of **three** different student submissions and their reported grade as loaded in the browser:
 > Sample Submission 1: https://github.com/ucsd-cse15l-f22/list-methods-lab3\
-> ![sample1](Week-9-Lab-Report-Pics/sample1.jpg)
+> ![sample1](Week-9-Lab-Reports-Pics/sample1.jpg)
 
 > Sample Submission 2: https://github.com/ucsd-cse15l-f22/list-methods-corrected\
-> ![sample2](Week-9-Lab-Report-Pics/sample2.jpg)
+> ![sample2](Week-9-Lab-Reports-Pics/sample2.jpg)
 
 > Sample Submission 3: https://github.com/ucsd-cse15l-f22/list-methods-compile-error\
-> ![sample3](Week-9-Lab-Report-Pics/sample3.jpg)
+> ![sample3](Week-9-Lab-Reports-Pics/sample3.jpg)
