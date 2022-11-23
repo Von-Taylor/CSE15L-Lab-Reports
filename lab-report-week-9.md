@@ -64,7 +64,7 @@ fi
 ## Choose one of the examples you showed in screenshot, and describe a trace of what your `grade.sh` does on that example
 - Chosen Screenshot --> Sample Student Submission 2
 
-> For each line with a command, what its standard output and standard error are for this run, and whether its return code was zero or nonzero
+1. For each line with a command, what its standard output and standard error are for this run, and whether its return code was zero or nonzero
 > - For the `git clone $1 student-submission` line, its standard error was nothing, its return code was 0, and its standard output was:
 > ```
 > Cloning into 'student-submission'...
@@ -100,12 +100,12 @@ fi
 > Out of 3, you grade is: 3
 > ```
 
-> For each line with an `if` statement, whether the condition was true or false, and why
+2. For each line with an `if` statement, whether the condition was true or false, and why
 > - For the `if [ -f ListExamples.java ]` line, the condition evaluated to true because the `ListExamples.java` file from the sample repository existed
 > - For the `if [ $? -eq 00 ]` line, the condition evaluated to true because the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` did not return a nonzero exit code
 > - For the `if [ $? -eq 00 ]` line, the condition evaluated to true because the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples` did not return a nonzero exit code
 
-> Indicate each line that does not run (maybe because it is in an `if` branch that doesn’t evaluate, or after an early exit)
+3. Indicate each line that does not run (maybe because it is in an `if` branch that doesn’t evaluate, or after an early exit)
 > - The lines that don't run include:
 > ```
 > echo "ListExamples.java file not found"
