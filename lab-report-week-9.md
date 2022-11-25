@@ -53,13 +53,13 @@ fi
 
 ## **Screenshots of **three** different student submissions and their reported grade as loaded in the browser:**
 > Sample Submission 1: https://github.com/ucsd-cse15l-f22/list-methods-lab3
-> ![sample1](Week-9-Lab-Reports-Pics/sample1.jpg)
+![sample1](Week-9-Lab-Reports-Pics/sample1.jpg)
 
 > Sample Submission 2: https://github.com/ucsd-cse15l-f22/list-methods-corrected
-> ![sample2](Week-9-Lab-Reports-Pics/sample2.jpg)
+![sample2](Week-9-Lab-Reports-Pics/sample2.jpg)
 
 > Sample Submission 3: https://github.com/ucsd-cse15l-f22/list-methods-compile-error
-> ![sample3](Week-9-Lab-Reports-Pics/sample3.jpg)
+![sample3](Week-9-Lab-Reports-Pics/sample3.jpg)
 
 
 ## **Choose one of the examples you showed in screenshot, and describe a trace of what your `grade.sh` does on that example**
@@ -72,22 +72,22 @@ fi
 > - For the `rm -rf student-submission` line, its standard output was nothing, its standard error was also nothing, and its return code was 0.
 
 > - For the `git clone $1 student-submission` line, its return code was 0, its standard output was: 
-> ```
-> remote: Enumerating objects: 3, done.
-> remote: Counting objects: 100% (3/3), done.
-> remote: Compressing objects: 100% (2/2), done.
-> remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
-> Receiving objects: 100% (3/3), done.
-> ```
+```
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+```
 > &ensp;&thinsp; &ensp;&thinsp; And its standard error was:
-> ```
-> Cloning into 'student-submission'...
->  ```
+```
+Cloning into 'student-submission'...
+```
 
 > - For the `echo "ListExamples.java file found"` line, its standard error was nothing, its return code was 0, and its standard output was:
-> ```
-> ListExamples.java file found
-> ```
+```
+ListExamples.java file found
+```
 
 > - For the `cd ..` line, its standard output was nothing, its standard error was also nothing, and its return code was 0.
 
@@ -100,27 +100,27 @@ fi
 > - For the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` line, its standard output was nothing, its standard error was also nothing, and its return code was 0.
 
 > - For the `echo "Compilation succeeded"` line, its standard error was nothing, its return code was 0, and its standard output was:
-> ```
-> Compilation succeeded
-> ```
+```
+Compilation succeeded
+```
 
 > - For the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples` line, its standard error was nothing, its return code was 0, and its standard output was:
-> ```
-> JUnit version 4.13.2
-> ...
-> Time: 0.014
-> OK (3 tests)
-> ```
+```
+JUnit version 4.13.2
+...
+Time: 0.014
+OK (3 tests)
+```
 
 > - For the `echo "You passed all the tests!"` line, its standard error was nothing, its return code was 0, and its standard output was:
-> ```
-> You passed all the tests!
-> ```
+```
+You passed all the tests!
+```
 
 > - For the `echo "Out of 3, you grade is: "$GRADE` line, its standard error was nothing, its return code was 0, and its standard output was:
-> ```
-> Out of 3, you grade is: 3
-> ```
+```
+Out of 3, you grade is: 3
+```
 
 2) **For each line with an `if` statement, whether the condition was true or false, and why**
 
@@ -134,19 +134,19 @@ fi
 
 > - The lines that don't run include:
 
-> ```
-> echo "ListExamples.java file not found"
-> echo "Grade is: "$GRADE
-> exit 1
-> ```
+```
+echo "ListExamples.java file not found"
+echo "Grade is: "$GRADE
+exit 1
+```
 
-> ```
-> echo "Compilation failed"
-> echo "Out of 3, you grade is: "$GRADE
-> exit 1
-> ```
+```
+echo "Compilation failed"
+echo "Out of 3, you grade is: "$GRADE
+exit 1
+```
 
-> ```
-> echo "You failed some tests"
-> echo "Out of 3, you grade is: "$GRADE
-> ```
+```
+echo "You failed some tests"
+echo "Out of 3, you grade is: "$GRADE
+```
