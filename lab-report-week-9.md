@@ -51,7 +51,7 @@ else
 fi
 ```
 
-## **Screenshots of **three** different student submissions and their reported grade as loaded in the browser:**
+## **Screenshots of three different student submissions and their reported grade as loaded in the browser:**
 Sample Submission 1: https://github.com/ucsd-cse15l-f22/list-methods-lab3
 ![sample1](Week-9-Lab-Reports-Pics/sample1.jpg)
 
