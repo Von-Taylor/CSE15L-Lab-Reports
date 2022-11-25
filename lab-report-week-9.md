@@ -105,6 +105,7 @@ fi
 > ```
 
 > - For the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples` line, its standard error was nothing, its return code was 0, and its standard output was:
+> 
 > ```
 > JUnit version 4.13.2
 > ...
