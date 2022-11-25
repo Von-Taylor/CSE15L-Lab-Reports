@@ -63,7 +63,7 @@ Sample Submission 3: https://github.com/ucsd-cse15l-f22/list-methods-compile-err
 
 
 ## **Choose one of the examples you showed in screenshot, and describe a trace of what your `grade.sh` does on that example**
-- Chosen Screenshot --> Sample Student Submission 2: https://github.com/ucsd-cse15l-f22/list-methods-corrected
+> - Chosen Screenshot --> Sample Student Submission 2: https://github.com/ucsd-cse15l-f22/list-methods-corrected
 
 1) **For each line with a command, what its standard output and standard error are for this run, and whether its return code was zero or nonzero**
 > - ##### *I found the standard outputs by using the '>' redirection syntax, I found the standard errors by using the '2>' redirection syntax, and I used an 'echo $?' to see the return codes for all the commands that were run by the Sample Student Submission 2.*
@@ -107,7 +107,7 @@ Compilation succeeded
 - For the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples` line, its standard error was nothing, its return code was 0, and its standard output was:
 ```
 JUnit version 4.13.2
-...
+
 Time: 0.014
 
 OK (3 tests)
