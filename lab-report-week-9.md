@@ -104,12 +104,11 @@ ListExamples.java file found
 Compilation succeeded
 ```
 
-- For the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples` line, its standard error was nothing, its return code was 0, and its standard output was:\
+- For the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples` line, its standard error was nothing, its return code was 0, and its standard output was:
+a
 ```
 JUnit version 4.13.2
-
 Time: 0.014
-
 OK (3 tests)
 ```
 
