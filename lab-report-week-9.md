@@ -65,9 +65,9 @@ fi
 ## **Choose one of the examples you showed in screenshot, and describe a trace of what your `grade.sh` does on that example**
 - Chosen Screenshot --> Sample Student Submission 2: https://github.com/ucsd-cse15l-f22/list-methods-corrected
 
-1. **For each line with a command, what its standard output and standard error are for this run, and whether its return code was zero or nonzero**
-    - ##### I found the standard outputs by using the '>' redirection syntax, I found the standard errors by using the '2>' redirection syntax, and I used an 'echo $?' to see the return codes for all the commands that were run by the Sample Student Submission 2.
-    - ##### However, the redirection did not redirect everything for the 'git clone', 'echo', and 'java' commands, so I put the standard output based on what was printed on the terminal instead.
+1) **For each line with a command, what its standard output and standard error are for this run, and whether its return code was zero or nonzero**
+- ##### *I found the standard outputs by using the '>' redirection syntax, I found the standard errors by using the '2>' redirection syntax, and I used an 'echo $?' to see the return codes for all the commands that were run by the Sample Student Submission 2.*
+- ##### *However, the redirection did not redirect everything for the 'git clone', 'echo', and 'java' commands, so I put the standard output based on what was printed on the terminal instead.*
 
 > - For the `rm -rf student-submission` line, its standard output was nothing, its standard error was also nothing, and its return code was 0.
 
@@ -123,14 +123,16 @@ fi
 > Out of 3, you grade is: 3
 > ```
 
-2. **For each line with an `if` statement, whether the condition was true or false, and why**
+2) **For each line with an `if` statement, whether the condition was true or false, and why**
+
 > - For the `if [ -f ListExamples.java ]` line, the condition evaluated to true because the `ListExamples.java` file from the sample repository existed
 
 > - For the first `if [ $? -eq 00 ]` line, the condition evaluated to true because the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` returned a 0 exit code
 
 > - For the second `if [ $? -eq 00 ]` line, the condition evaluated to true because the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples` returned a 0 exit code
 
-3. **Indicate each line that does not run (maybe because it is in an `if` branch that doesn’t evaluate, or after an early exit)**
+3) **Indicate each line that does not run (maybe because it is in an `if` branch that doesn’t evaluate, or after an early exit)**
+
 > - The lines that don't run include:
 > ```
 > echo "ListExamples.java file not found"
