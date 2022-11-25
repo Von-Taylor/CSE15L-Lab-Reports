@@ -68,6 +68,7 @@ fi
 1. **For each line with a command, what its standard output and standard error are for this run, and whether its return code was zero or nonzero**
     - ##### I found the standard outputs by using the '>' redirection syntax, I found the standard errors by using the '2>' redirection syntax, and I used an 'echo $?' to see the return codes for all the commands that were run by the Sample Student Submission 2.
     - ##### However, the redirection did not redirect everything for the 'git clone', 'echo', and 'java' commands, so I put the standard output based on what was printed on the terminal instead.
+
 > - For the `rm -rf student-submission` line, its standard output was nothing, its standard error was also nothing, and its return code was 0.
 
 > - For the `git clone $1 student-submission` line, its return code was 0, its standard output was: 
