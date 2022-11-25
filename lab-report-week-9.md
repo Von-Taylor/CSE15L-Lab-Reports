@@ -107,9 +107,8 @@ fi
 > - For the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples` line, its standard error was nothing, its return code was 0, and its standard output was:
 > ```
 > JUnit version 4.13.2
-> ..
+> ...
 > Time: 0.014
-> 
 > OK (3 tests)
 > ```
 
@@ -134,6 +133,7 @@ fi
 3) **Indicate each line that does not run (maybe because it is in an `if` branch that doesn’t evaluate, or after an early exit)**
 
 > - The lines that don't run include:
+
 > ```
 > echo "ListExamples.java file not found"
 > echo "Grade is: "$GRADE
